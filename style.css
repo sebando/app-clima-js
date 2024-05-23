@@ -1,0 +1,32 @@
+body{
+    font-family: "Merriweather Sans", sans-serif;
+    background-color: rgb(1, 88, 114);
+}
+.container{
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(1, 76, 99);
+    box-shadow: 0 2px 4px rgb(52, 52, 53);
+}
+h1,h2,p{
+    color: white;
+}
+input[type="text"]{
+    padding: 10px;
+    font-size: 16px;
+    width: 60%;
+}
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(205, 127, 218);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+#responseData{
+    margin-top: 20px;
+    font-size: 18px;
+}
